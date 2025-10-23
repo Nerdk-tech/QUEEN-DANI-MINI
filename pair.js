@@ -4253,7 +4253,7 @@ try {
 }
                 } catch (error) {
                     console.error('Connection error:', error);
-                    exec(`pm2 restart ${process.env.PM2_NAME || 'QUEEN-DANI-MINI}`);
+                    exec(`pm2 restart ${process.env.PM2_NAME || 'QUEEN-DANI-MINI'}`);
                 }
             }
         });
